@@ -6,8 +6,8 @@ const backImage = images[Math.floor(Math.random() * images.length)];  //Math.flo
 
 const bgImage = document.createElement("img");   // html element 생성
 
-bgImage.src = `img/${backImage}`;   // 
+bgImage.src = `img/${backImage}`;   // img 파일의 경로
 
-console.log(bgImage);   //src, 이미지 이름
+// console.log(bgImage);   //src, 이미지 이름
 
 document.body.appendChild(bgImage); //body에 append..
